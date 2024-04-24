@@ -1,0 +1,42 @@
+[
+  {
+    "opponent": "Real Madrid",
+    "date": "2024-04-23",
+    "time": "19:30",
+    "stadium": "Madrid, Santiago Bernabeu",
+    "isHome": false,
+    "championship": "Tournament matches"
+  },
+  {
+    "opponent": "FC Barcelona",
+    "date": "2024-04-26",
+    "time": "18:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Tournament matches"
+  },
+  {
+    "opponent": "Riga FC",
+    "date": "2024-04-29",
+    "time": "16:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga"
+  },
+  {
+    "opponent": "FK RFS",
+    "date": "2024-05-04",
+    "time": "22:00",
+    "stadium": "Riga, LNK sport park",
+    "isHome": false,
+    "championship": "Optibet virsliga"
+  },
+  {
+    "opponent": "Valmiera FC",
+    "date": "2024-05-10",
+    "time": "16:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga"
+  }
+]

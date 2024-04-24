@@ -1,0 +1,39 @@
+.Standings {
+  padding: 90px 0;
+  background-color: #E3E2DE;
+}
+
+.Standings-container {
+  margin-top: 50px;
+}
+
+.slide {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: auto;
+  height: 400px;
+}
+
+.slide > span {
+  color: red;
+}
+
+.slide a {
+  position: relative;
+}
+
+.slide a:hover::after {
+  content: '';
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  width: 100%;
+  height: -webkit-fill-available;
+  background-color: rgba(0, 0, 0, 0.5);
+}
