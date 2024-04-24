@@ -5,7 +5,7 @@ const Partners = () => {
 	return (
 		<div className='Partners'>
 			<h3 className='section-title'>PARTNERS</h3>
-			<div className='container'>
+			<div data-aos='fade-up' className='container'>
 				<div className='Partners__inner'>
 					<div className='Partners--item'>
 						<Link href={'https://www.amazon.com/'}></Link>

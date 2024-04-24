@@ -10,7 +10,19 @@ import Partners from './Components/Partners';
 import Standings from './Components/Standings';
 import Statistics from './Components/Statistics';
 
+import {useEffect} from 'react';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Home() {
+	useEffect(() => {
+		// Correct usage of useEffect
+		Aos.init({
+			duration: 800,
+			once: false,
+		});
+	}, []);
 	return (
 		<>
 			<div className='mainPage'>

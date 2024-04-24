@@ -12,7 +12,7 @@ const News = () => {
 	return (
 		<div className='News'>
 			<h3 className='section-title'>NEWS</h3>
-			<div className='container'>
+			<div data-aos='fade-up' className='container'>
 				<div className='News__inner'>
 					{news.map((item, index) => (
 						<div key={index} className='News-item'>

@@ -51,7 +51,7 @@ const MatchCountdown = () => {
 	return (
 		<div className='MatchCountdown'>
 			<h3 className='section-title'>COUNTDOWN TO NEXT GAME</h3>
-			<div className='info'>
+			<div data-aos='fade-up' className='info'>
 				<div className='countdown'>
 					<div className='timer'>
 						<div className='timer-up'>

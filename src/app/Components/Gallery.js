@@ -26,7 +26,7 @@ const Gallery = () => {
 	return (
 		<div className='Gallery'>
 			<h3 className='section-title'>GALLERY</h3>
-			<div className='Gallery__container'>
+			<div data-aos='fade-up' className='Gallery__container'>
 				<div className='Gallery__buttons'>
 					{reversedPhotoData.map((item, index) => (
 						<button className={activeButton === item.team ? 'active' : ''} type='button' key={index} onClick={() => handleTeamSelect(item.team)}>

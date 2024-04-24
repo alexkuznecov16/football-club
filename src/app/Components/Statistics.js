@@ -4,7 +4,7 @@ import {IoIdCardSharp} from 'react-icons/io5';
 import './Statistics.css';
 const Statistics = () => {
 	return (
-		<div className='Statistics'>
+		<div data-aos='fade-up' className='Statistics'>
 			<h3 className='section-title'>STATISTICS 2022</h3>
 			<div className='container'>
 				<div className='Statistics__inner'>

@@ -68,6 +68,7 @@
 .Footer--bottom__socials a img {
   width: 25px;
   height: auto;
+  padding: 3px;
 }
 
 @media screen and (max-width: 500px) {

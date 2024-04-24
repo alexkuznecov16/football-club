@@ -17,7 +17,7 @@ const Standings = () => {
 	return (
 		<div className='Standings'>
 			<h3 className='section-title'>STANDINGS</h3>
-			<div className='Standings-container'>
+			<div data-aos='fade-up' className='Standings-container'>
 				<div ref={sliderRef} className='keen-slider'>
 					<div className='keen-slider__slide slide number-slide1'>
 						<div>

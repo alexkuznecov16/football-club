@@ -8,7 +8,7 @@ const About = () => {
 	return (
 		<div className='About'>
 			<h3 className='section-title'>ABOUT CLUB</h3>
-			<div className='About__inner'>
+			<div data-aos='fade-up' className='About__inner'>
 				<div className='About-item'>
 					<div className='image__container'>
 						<Image src={champions} alt='img1'></Image>
