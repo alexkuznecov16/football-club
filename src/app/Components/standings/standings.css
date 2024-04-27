@@ -16,8 +16,8 @@
 }
 
 .slide img {
-  width: auto;
-  height: clamp(150px, 40vw, 400px);
+  width: clamp(150px, 80vw, 700px);
+  height: auto;
 }
 
 .slide > span {

@@ -57,10 +57,11 @@
 
 .About__inner .About-item p {
   text-transform: none;
+  font-size: clamp(6px, 4vw, 14px);
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1160px) {
   .About__inner {
     gap: 20px;
     flex-wrap: wrap;

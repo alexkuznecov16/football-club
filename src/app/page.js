@@ -15,7 +15,7 @@ import {useEffect} from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-export default function Home() {
+const Home = () => {
 	// animation on scroll
 	useEffect(() => {
 		Aos.init({
@@ -39,4 +39,6 @@ export default function Home() {
 			</div>
 		</>
 	);
-}
+};
+
+export default Home;

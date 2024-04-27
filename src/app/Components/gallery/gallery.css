@@ -26,6 +26,8 @@
   border: 1px solid #862042;
   font-weight: bold;
   padding: 0.457em 1.414em;
+  max-width: 200px;
+  height: auto;
 }
 
 .Gallery__buttons button.active {
