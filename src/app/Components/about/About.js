@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import './about.css';
 
-import champions from '../Assets/champions.png';
-import fans from '../Assets/fans.png';
+import champions from '../../Assets/champions.png';
+import fans from '../../Assets/fans.png';
 
 const About = () => {
 	return (

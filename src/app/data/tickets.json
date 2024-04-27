@@ -1,0 +1,60 @@
+[
+  {
+    "opponent": "Real Madrid",
+    "date": "2024-04-23",
+    "time": "19:30",
+    "stadium": "Madrid, Santiago Bernabeu",
+    "isHome": false,
+    "championship": "Tournament matches",
+    "price": null,
+    "available": true,
+    "ticketLink": "https://www.google.com",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s"
+  },
+  {
+    "opponent": "FC Barcelona",
+    "date": "2024-04-26",
+    "time": "18:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Tournament matches",
+    "price": null,
+    "available": false,
+    "ticketLink": "",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s"
+  },
+  {
+    "opponent": "Riga FC",
+    "date": "2024-04-29",
+    "time": "16:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga",
+    "price": null,
+    "available": false,
+    "ticketLink": "",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s"
+  },
+  {
+    "opponent": "FK RFS",
+    "date": "2024-05-04",
+    "time": "22:00",
+    "stadium": "Riga, LNK sport park",
+    "isHome": false,
+    "championship": "Optibet virsliga",
+    "price": null,
+    "available": false,
+    "ticketLink": ""
+  },
+  {
+    "opponent": "Valmiera FC",
+    "date": "2024-05-10",
+    "time": "16:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga",
+    "price": null,
+    "available": false,
+    "ticketLink": ""
+  }
+]

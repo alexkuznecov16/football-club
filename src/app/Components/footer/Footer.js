@@ -2,9 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import './footer.css';
 
-import instagram from '../Assets/instagram-white-icon.png';
-import telegram from '../Assets/telegram-white-icon.png';
-import youtube from '../Assets/youtube-app-white-icon.png';
+import instagram from '../../Assets/instagram-white-icon.png';
+import telegram from '../../Assets/telegram-white-icon.png';
+import youtube from '../../Assets/youtube-app-white-icon.png';
 
 const Footer = () => {
 	return (
@@ -19,15 +19,15 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className='Footer--bottom'>
-						<div className='Footer--bottom__copyright'>Copyright &copy; 2024 All rights reserved </div>
+						<div className='Footer--bottom__copyright'>Copyright &copy; {new Date().getFullYear()} All rights reserved </div>
 						<div className='Footer--bottom__socials'>
-							<Link href={'instagram'}>
+							<Link target='_blank' href={'https://www.instagram.com'}>
 								<Image alt='instagram' src={instagram}></Image>
 							</Link>
-							<Link href={'telegram'}>
+							<Link target='_blank' href={'https://www.telegram.com'}>
 								<Image alt='telegram' src={telegram}></Image>
 							</Link>
-							<Link href={'youtube'}>
+							<Link target='_blank' href={'https://www.youtube.com'}>
 								<Image alt='youtube' src={youtube}></Image>
 							</Link>
 						</div>

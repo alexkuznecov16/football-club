@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import {useState, useEffect} from 'react';
 import './matchcountdown.css';
-import matchesData from '../matches.json';
+import matchesData from '../../data/matches.json';
 
 const MatchCountdown = () => {
 	const [matches, setMatches] = useState(matchesData);
@@ -100,13 +100,13 @@ const MatchCountdown = () => {
 				)}
 				{matches[i].isHome ? (
 					<div>
-						<p style={{color: '#000', textAlign: 'center'}}>
+						<p style={{color: '#000', textAlign: 'center', fontSize: 'clamp(6px, 4vw, 18px)'}}>
 							FK Spartaks VS {matches[i].opponent} | {matches[i].date} | {matches[i].time} | {matches[i].stadium} | {matches[i].championship}
 						</p>
 					</div>
 				) : (
 					<div>
-						<p style={{color: '#000', textAlign: 'center'}}>
+						<p style={{color: '#000', textAlign: 'center', fontSize: 'clamp(6px, 4vw, 18px)'}}>
 							{matches[i].opponent} VS FK Spartaks | {matches[i].date} | {matches[i].time} | {matches[i].stadium} | {matches[i].championship}
 						</p>
 					</div>

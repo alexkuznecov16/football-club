@@ -3,12 +3,32 @@ import Link from 'next/link';
 import Image from 'next/image';
 import './news.css';
 import {MdKeyboardArrowRight} from 'react-icons/md';
-import {useState} from 'react';
-import newsData from '../news.json';
+import {useState, useEffect} from 'react';
+import newsData from '../../data/news.json';
 
 const News = () => {
-	const [news, setNews] = useState(newsData.slice(-8).reverse());
-	console.log(news);
+	const [isMobileMenu, setMobileMenu] = useState(false);
+	const [news, setNews] = useState([]);
+
+	useEffect(() => {
+		const handleResize = () => {
+			if (window.innerWidth < 1160) {
+				setMobileMenu(true);
+				setNews(newsData.slice(-4).reverse());
+			} else {
+				setMobileMenu(false);
+				setNews(newsData.slice(-8).reverse());
+			}
+		};
+
+		handleResize(); // Проверяем при загрузке страницы
+
+		window.addEventListener('resize', handleResize);
+
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
+	}, []);
 	return (
 		<div className='News'>
 			<h3 className='section-title'>NEWS</h3>

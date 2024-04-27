@@ -1,0 +1,231 @@
+body.hide {
+  overflow: hidden;
+}
+
+.headerBlock {
+  background: #171313;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.absolute-header {
+  position: absolute;
+  width: 85%;
+  z-index: 200;
+  left: 50%;
+  -webkit-transform: translate(-50%, 25%);
+  -moz-transform: translate(-50%, 25%);
+  -ms-transform: translate(-50%, 25%);
+  -o-transform: translate(-50%, 25%);
+  transform: translate(-50%, 25%);
+  -webkit-transition: .15s ease-in;
+  -moz-transition: .15s ease-in;
+  -ms-transition: .15s ease-in;
+  -o-transition: .15s ease-in;
+  transition: .15s ease-in;
+}
+
+
+header.scroll {
+width: 100%;
+position: fixed;
+top: 0;
+left: 50%;
+-webkit-transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+
+header li, header a {
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.headerBlock nav ul li{
+  position: relative;
+  float: left;
+}
+
+.headerBlock nav ul li a {
+  display: block;
+  color: aliceblue;
+  padding: 20px;
+  /* -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBlock nav ul li ul {
+  position: relative;
+  z-index: 100000;
+}
+
+.headerBlock nav ul li a:hover {
+  opacity: .7;
+}
+
+.headerBlock nav ul li:not(:last-child) ul {
+  /* display: none; */
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
+
+.headerBlock nav ul li:last-child ul {
+  /* display: none; */
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+
+.headerBlock nav ul li ul li {
+  width: 100%;
+  /* -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear; */
+}
+
+.headerBlock nav ul li:hover > ul {
+  display: block;
+  background-color: #171313;
+  height: auto;
+}
+
+.headerBlock nav ul li ul li:hover > a {
+  color: #776161;
+}
+
+.headerBlock nav ul li:not(:last-child) ul li a {
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  float: left;
+  margin-right: auto;
+  align-items: center;
+}
+
+.headerBlock nav ul ul:last-child li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.headerBlock nav ul li ul li a img {
+  width: 15px;
+  height: 15px;
+}
+
+.headerBlock .logo {
+  height: clamp(50px, 50vw, 100px);
+}
+
+.headerBlock.scroll .logo {
+  height: clamp(30px, 50vw, 70px);
+  width: auto;
+}
+/*! MOBILE */
+.mobile {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 10000;
+  left: 100%;
+  top: 0;
+  display: none;
+  padding: 20px 0;
+  background-color: #171313;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.mobile img {
+  width: auto;
+  height: clamp(100px, 50vw, 130px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.mobile.open {
+  animation-name: to-left;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
+  display: block;
+  /* animation-delay: 250ms; */
+}
+
+@keyframes to-left {
+  100% {
+    opacity: 1; /* Измените display: block на opacity: 1 */
+    left: 0;
+  }
+}
+
+
+.headerBlock .mobile nav ul li:hover > ul {
+  background-color: #776161;
+}
+
+.mobile nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+}
+
+.headerBlock .mobile nav ul li {
+  width: auto;
+}
+
+.headerBlock .mobile nav ul li:not(:last-child) ul li a {
+  padding: 0;
+}
+
+.headerBlock .mobile nav ul li:hover:not(:last-child) ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.open-menu {
+  color: greenyellow;
+  cursor: pointer;
+  font-size: 60px;
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+.close-menu {
+  color: red;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 40px;
+  cursor: pointer;
+}

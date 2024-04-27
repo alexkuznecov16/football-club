@@ -39,6 +39,8 @@
   -o-transition: .3s linear;
   transition: .3s linear; */
   pointer-events: painted;
+  width: clamp(180px, 50vw, 500px);
+  height: auto;
 }
 
 .About__inner .About-item:first-child img:hover {

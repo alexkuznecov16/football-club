@@ -15,7 +15,7 @@
 
 .News__inner .News-item {
   position: relative;
-  width: 285px;
+  width: clamp(150px, 50vw, 300px);
   cursor: pointer;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -34,7 +34,7 @@
 }
 
 .News__inner .News-item img {
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
@@ -86,4 +86,5 @@
   right: 5px;
   background-color: rgba(0, 0, 0, .6);
   color: #fff;
+  font-size: clamp(4px, 4vw, 14px);
 }

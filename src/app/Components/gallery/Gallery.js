@@ -1,6 +1,6 @@
 'use client';
 import {useState, useEffect} from 'react';
-import photoData from '../gallery.json';
+import photoData from '../../data/gallery.json';
 import Link from 'next/link';
 
 import './gallery.css';
@@ -16,7 +16,6 @@ const Gallery = () => {
 	};
 
 	useEffect(() => {
-		// При загрузке страницы выбираем последнее значение team
 		const lastTeam = photoData[photoData.length - 1].team;
 		handleTeamSelect(lastTeam);
 	}, []);

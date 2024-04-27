@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-family: 'Catamaran',Arial,sans-serif;
+  font-family: 'Catamaran' ,Arial,sans-serif;
 }
 
 * {
@@ -18,7 +18,7 @@ html {
 
 .section-title {
   position: relative;
-  font-size: 33px;
+  font-size: clamp(20px, 10vw, 33px);
   text-shadow: 1px 1px 1px rgba(0,0,0,.1);
   letter-spacing: 0.5px;
   text-transform: uppercase;

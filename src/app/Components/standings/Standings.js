@@ -6,9 +6,9 @@ import './standings.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import virsliga from '../Assets/virsliga.png';
-import latvian_cup from '../Assets/latvian-cup.png';
-import livonian_cup from '../Assets/livonian-cup.jpg';
+import virsliga from '../../Assets/virsliga.png';
+import latvian_cup from '../../Assets/latvian-cup.png';
+import livonian_cup from '../../Assets/livonian-cup.jpg';
 
 const Standings = () => {
 	const [sliderRef] = useKeenSlider({

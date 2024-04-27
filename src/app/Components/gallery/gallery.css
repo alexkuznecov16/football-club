@@ -48,13 +48,13 @@
 
 .Gallery__inner img {
   position: relative;
-  width: 400px;
-  height: auto;
   -webkit-transition: .3s linear;
   -moz-transition: .3s linear;
   -ms-transition: .3s linear;
   -o-transition: .3s linear;
   transition: .3s linear;
+  width: clamp(180px, 60vw, 400px);
+  height: auto;
 }
 
 .Gallery__inner img:hover {

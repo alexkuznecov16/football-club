@@ -17,7 +17,7 @@
 
 .slide img {
   width: auto;
-  height: 400px;
+  height: clamp(150px, 40vw, 400px);
 }
 
 .slide > span {
