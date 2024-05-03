@@ -1,0 +1,225 @@
+{
+  "matches": [
+    {
+      "opponent": "Real Madrid",
+      "date": "2024-04-23",
+      "time": "19:30",
+      "stadium": "Madrid, Santiago Bernabeu",
+      "isHome": false,
+      "championship": "Tournament matches"
+    },
+    {
+      "opponent": "FC Barcelona",
+      "date": "2024-04-26",
+      "time": "18:00",
+      "stadium": "Jurmala, Sloka stadium",
+      "isHome": true,
+      "championship": "Tournament matches"
+    },
+    {
+      "opponent": "Riga FC",
+      "date": "2024-04-29",
+      "time": "16:00",
+      "stadium": "Jurmala, Sloka stadium",
+      "isHome": true,
+      "championship": "Optibet virsliga"
+    },
+    {
+      "opponent": "FK RFS",
+      "date": "2024-05-04",
+      "time": "22:00",
+      "stadium": "Riga, LNK sport park",
+      "isHome": false,
+      "championship": "Optibet virsliga"
+    },
+    {
+      "opponent": "Valmiera FC",
+      "date": "2024-05-10",
+      "time": "16:00",
+      "stadium": "Jurmala, Sloka stadium",
+      "isHome": true,
+      "championship": "Optibet virsliga"
+    }
+  ],
+
+  "gallery": [
+    {
+      "team": "Real Madrid - FK Spartaks | 23.04.2024",
+      "photos": [
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/10/07172144/F4FC058B-1E56-4992-858A-922CF0FD9767.jpeg"
+      ]
+    },
+    {
+      "team": "FC Barcelona - FK Spartaks | 26.04.2024",
+      "photos": [
+        "https://img.theweek.in/content/dam/week/news/sports/images/2021/11/5/xavi-barcelona-reuters.jpg",
+        "https://img.theweek.in/content/dam/week/news/sports/images/2021/11/5/xavi-barcelona-reuters.jpg",
+        "https://img.theweek.in/content/dam/week/news/sports/images/2021/11/5/xavi-barcelona-reuters.jpg"
+      ]
+    },
+    {
+      "team": "FK Spartaks - Riga FC | 29.04.2024",
+      "photos": [
+        "https://rigafc.lv/wp-content/uploads/2024/04/Riga-FC-Liepaja-0456-1000x664.jpg",
+        "https://rigafc.lv/wp-content/uploads/2024/04/Riga-FC-Liepaja-0456-1000x664.jpg",
+        "https://rigafc.lv/wp-content/uploads/2024/04/Riga-FC-Liepaja-0456-1000x664.jpg"
+      ]
+    },
+    {
+      "team": "FK RFS - FK Spartaks | 24.05.2024",
+      "photos": [
+        "https://static1.s123-cdn-static-a.com/uploads/328856/2000_622e41c581d5a.jpg",
+        "https://static1.s123-cdn-static-a.com/uploads/328856/2000_622e41c581d5a.jpg",
+        "https://static1.s123-cdn-static-a.com/uploads/328856/2000_622e41c581d5a.jpg"
+      ]
+    },
+    {
+      "team": "FK Spartaks - Valmiera FC | 10.05.2024",
+      "photos": [
+        "https://static1.s123-cdn-static-a.com/uploads/328856/2000_6241a8970da6a.jpg",
+        "https://static1.s123-cdn-static-a.com/uploads/328856/2000_6241a8970da6a.jpg",
+        "https://static1.s123-cdn-static-a.com/uploads/328856/2000_6241a8970da6a.jpg"
+      ]
+    }
+  ],
+
+  "news": [
+    {
+      "title": "3 points on the road",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "15.04.2024"
+    },
+    {
+      "title": "3 points on the road",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "16.04.2024"
+    },
+    {
+      "title": "3 points on the road",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "17.04.2024"
+    },
+    {
+      "title": "3 points on the road",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "18.04.2024"
+    },
+    {
+      "title": "3 title",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "19.04.2024"
+    },
+    {
+      "title": "2 title",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "20.04.2024"
+    },
+    {
+      "title": "1 title",
+      "subtitle": "Away win at FK Auda helps us to secure the 8th position in the table. Goal scored by Kwadwo Asamoah in the first half.",
+      "all_text": "With two rounds remaining we needed 3 points or FK Metta to lose or draw in one of the two remaining games in order to secure the 8th place and avoid relegation play-offs. We got the job done in the first half, after a series of many dangerous attacks Kwadwo Asamoah scored our first and only goal in the game. \n\nOur lineup for the game: Isajevs (GK), Grauds, Kramēns, Terekhov, Solovjovs, Zekhov, Meļņiks, Markhiyev, Laizāns (C), Asamoah, Leo Gaucho.\n\nNext saturday we will head to Tukums for the final game of the 2022 season!",
+      "poster": "/poster1.png",
+      "date": "21.04.2024"
+    }
+  ],
+
+  "tickets": [
+    {
+      "opponent": "Real Madrid",
+      "date": "2024-04-23",
+      "time": "19:30",
+      "stadium": "Madrid, Santiago Bernabeu",
+      "isHome": false,
+      "championship": "Tournament matches",
+      "price": null,
+      "available": true,
+      "ticketLink": "https://www.google.com",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s"
+    },
+    {
+      "opponent": "FC Barcelona",
+      "date": "2024-04-26",
+      "time": "18:00",
+      "stadium": "Jurmala, Sloka stadium",
+      "isHome": true,
+      "championship": "Tournament matches",
+      "price": null,
+      "available": false,
+      "ticketLink": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s"
+    },
+    {
+      "opponent": "Riga FC",
+      "date": "2024-04-29",
+      "time": "16:00",
+      "stadium": "Jurmala, Sloka stadium",
+      "isHome": true,
+      "championship": "Optibet virsliga",
+      "price": null,
+      "available": false,
+      "ticketLink": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s"
+    },
+    {
+      "opponent": "FK RFS",
+      "date": "2024-05-04",
+      "time": "22:00",
+      "stadium": "Riga, LNK sport park",
+      "isHome": false,
+      "championship": "Optibet virsliga",
+      "price": null,
+      "available": false,
+      "ticketLink": ""
+    },
+    {
+      "opponent": "Valmiera FC",
+      "date": "2024-05-10",
+      "time": "16:00",
+      "stadium": "Jurmala, Sloka stadium",
+      "isHome": true,
+      "championship": "Optibet virsliga",
+      "price": null,
+      "available": false,
+      "ticketLink": ""
+    }
+  ],
+  
+  "stadiums": [
+    {
+      "title": "Jurmala City Stadium &quot;Sloka&quot;",
+      "capacity": 2500,
+      "info": "FK &quot;Spartaks&quot; Jūrmala is spending all home games in &quot;Sloka&quot; stadium. Stadium was renewed in 2007 and now its capacity is 2500 seats. Stadium have UEFA category what allows to spend European competitions matches.",
+      "address": "Skolas iela 5, Jūrmala",
+      "image": "https://static1.s123-cdn-static-a.com/uploads/328856/800_591073fc9d232.jpg"
+    },
+    {
+      "title": "Kauguri middle-school football stadium",
+      "capacity": 500,
+      "info": "FK &quot;Spartaks&quot; Jūrmala youth team is spending all home games at Kauguri middle-school football stadium. This stadium has a high-quality synthetic field.",
+      "address": "Raiņa iela 118, Jūrmala",
+      "image": "https://static1.s123-cdn-static-a.com/uploads/328856/800_5910740e42bfb.jpg"
+    }
+  ]
+}

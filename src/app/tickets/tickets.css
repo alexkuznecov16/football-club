@@ -12,8 +12,12 @@ header.headerBlock {
 
 .tickets {
   width: 100%;
-  height: 100%;
-  padding: 120px 0;
+  min-height: 75vh;
+  padding: 130px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: 'Catamaran' ,Arial,sans-serif;
 }
 

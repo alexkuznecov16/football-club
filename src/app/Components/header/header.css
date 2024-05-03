@@ -8,6 +8,7 @@ body.hide {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 50px;
 }
 
 .absolute-header {
@@ -222,15 +223,15 @@ header.headerBlock nav.navigation ul {
 }
 
 .open-menu {
-  color: greenyellow;
+  color: #882042;
   cursor: pointer;
   font-size: 60px;
-  margin-left: auto;
-  padding-right: 30px;
+  margin-right: auto;
+  padding-left: 30px;
 }
 
 .close-menu {
-  color: red;
+  color: #882042;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -239,7 +240,7 @@ header.headerBlock nav.navigation ul {
 }
 
 .mobile .bottom-nav {
-  border-top: 1px solid red;
+  border-top: 1px solid #882042;
   padding-top: 10px;
   margin-top: 10px;
   display: flex;
@@ -281,9 +282,21 @@ header.headerBlock nav.navigation ul {
 .headerBlock .mobile nav ul li:not(:last-child) ul {
   display: none;
   position: absolute;
-  left: 120px;
+  left: 80px;
   top: 15px;
   width: 200px;
+}
+
+.mobile-logo-link {
+  width: 100%;
+  height: auto;
+}
+
+.mobile-logo {
+  display: block;
+  margin-left: auto;
+  width: 80px;
+  height: auto;
 }
 
 

@@ -31,7 +31,7 @@ export default function Tickets() {
 }
 
 const TicketCard = ({ticket}) => {
-	return ticket.poster ? (
+	return ticket.active ? (
 		<div className='ticket'>
 			<div className='ticket__image'>
 				<Image width={200} height={300} src={ticket.poster} alt={ticket.opponent}></Image>
@@ -42,7 +42,7 @@ const TicketCard = ({ticket}) => {
 				<p>Time: {ticket.time}</p>
 				<p>Stadium: {ticket.stadium}</p>
 				<p>Standing: {ticket.championship}</p>
-				{ticket.available ? (
+				{ticket.active ? (
 					<Link href={`${ticket.ticketLink}`} target='_blank' rel='noopener noreferrer' className='ticket__link'>
 						Buy tickets
 					</Link>

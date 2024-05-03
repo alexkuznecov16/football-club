@@ -17,8 +17,9 @@ import logo from '../../Assets/spartaks-logo.svg';
 
 import {useState, useEffect, useLayoutEffect} from 'react';
 
-const Header = ({isAbsolute}) => {
+const Header = () => {
 	const [isScrolled, setScrolled] = useState(false);
+	const [isAbsolute, setAbsolute] = useState(false);
 	const [isMobileSize, setMobileSize] = useState(false);
 	const [isMobileOpen, setMobileOpen] = useState(false);
 
@@ -26,6 +27,7 @@ const Header = ({isAbsolute}) => {
 		const handleScroll = () => {
 			const scrolled = window.scrollY > 5;
 			setScrolled(scrolled);
+			setAbsolute(true);
 		};
 
 		window.addEventListener('scroll', handleScroll);
@@ -59,7 +61,7 @@ const Header = ({isAbsolute}) => {
 	}, [isMobileOpen]);
 
 	return (
-		<header className={`${isAbsolute ? 'absolute-header' : ''} headerBlock ${isScrolled ? 'scroll' : ''}`}>
+		<header className={`${isAbsolute ? 'absolute-header' : ''} headerBlock ${isScrolled ? 'scroll' : 'absolute-header'}`}>
 			{isMobileSize ? (
 				<>
 					<div className={`mobile ${isMobileOpen ? 'open' : ''}`}>
@@ -75,7 +77,7 @@ const Header = ({isAbsolute}) => {
 									</Link>
 									<ul>
 										<li>
-											<Link href='/stadium'>Stadium</Link>
+											<Link href='/stadiums'>Stadiums</Link>
 										</li>
 										<li>
 											<Link href='/standings'>Standings</Link>
@@ -171,6 +173,9 @@ const Header = ({isAbsolute}) => {
 						<IoMdCloseCircle className='close-menu' onClick={() => setMobileOpen(false)} />
 					</div>
 					<IoMenu className='open-menu' onClick={() => setMobileOpen(true)} />
+					<Link className='mobile-logo-link' href='www.google.com'>
+						<Image className='logo mobile-logo' src={logo} alt='Spartaks logo' />
+					</Link>
 				</>
 			) : (
 				<>

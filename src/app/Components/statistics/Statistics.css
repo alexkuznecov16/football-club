@@ -35,13 +35,13 @@
   height: 255px;
 }
 
-.Statistics__inner .Statistics-item:hover {
+/* .Statistics__inner .Statistics-item:hover {
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
   transform: translateY(-10px);
-}
+} */
 
 .Statistics__inner .Statistics-item svg {
     margin: 0 auto;

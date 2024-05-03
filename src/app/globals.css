@@ -3,11 +3,39 @@ html {
   font-family: 'Catamaran' ,Arial,sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  min-height: 100vh;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+img, a, li, button {
+  -webkit-transition: .3s linear;
+  -moz-transition: .3s linear;
+  -ms-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -35,16 +63,4 @@ html {
   width: 50px;
   height: 3px;
   background-color: #882042;
-}
-
-img, a, li, button {
-  -webkit-transition: .3s linear;
-  -moz-transition: .3s linear;
-  -ms-transition: .3s linear;
-  -o-transition: .3s linear;
-  transition: .3s linear;
-}
-
-button {
-  cursor: pointer;
 }
