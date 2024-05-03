@@ -193,7 +193,7 @@ const Header = () => {
 								</Link>
 								<ul>
 									<li>
-										<Link href='/stadium'>Stadium</Link>
+										<Link href='/stadiums'>Stadiums</Link>
 									</li>
 									<li>
 										<Link href='/standings'>Standings</Link>
