@@ -30,7 +30,7 @@ body.hide {
 
 
 header.scroll {
-width: 100%;
+width: 100% !important;
 position: fixed;
 top: 0;
 left: 50%;
