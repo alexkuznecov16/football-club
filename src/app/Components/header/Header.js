@@ -69,7 +69,9 @@ const Header = ({section}) => {
 						<nav className='navigation'>
 							<ul className='all-navs'>
 								<li className='nav-item'>
-									<Link href='/'>HOME</Link>
+									<Link onClick={null} href='/'>
+										HOME
+									</Link>
 								</li>
 								<li>
 									<Link href='/#'>
@@ -151,7 +153,7 @@ const Header = ({section}) => {
 						</Link>
 						<ul>
 							<li>
-								<Link href='#'>
+								<Link href='/#'>
 									English <Image alt='USA' src={usa}></Image>
 								</Link>
 							</li>
@@ -167,19 +169,21 @@ const Header = ({section}) => {
 						<IoMdCloseCircle className='close-menu' onClick={() => setMobileOpen(false)} />
 					</div>
 					<IoMenu className='open-menu' onClick={() => setMobileOpen(true)} />
-					<Link className='mobile-logo-link' href='www.google.com'>
+					<Link className='mobile-logo-link' href='/#'>
 						<Image className='logo mobile-logo' src={logo} alt='Spartaks logo' />
 					</Link>
 				</>
 			) : (
 				<>
-					<Link href='www.google.com'>
+					<Link href='/#'>
 						<Image className='logo' src={logo} alt='Spartaks logo' />
 					</Link>
 					<nav className='navigation'>
 						<ul>
 							<li>
-								<Link href='/'>HOME</Link>
+								<Link onClick={null} href='/'>
+									HOME
+								</Link>
 							</li>
 							<li>
 								<Link href='/#'>
@@ -261,7 +265,7 @@ const Header = ({section}) => {
 									</Link>
 								</li>
 								<li>
-									<Link href='#'>
+									<Link href='/#'>
 										Русский <Image alt='Russia' src={russia}></Image>
 									</Link>
 								</li>
@@ -281,7 +285,9 @@ const Header = ({section}) => {
 						<nav className='navigation'>
 							<ul className='all-navs'>
 								<li className='nav-item'>
-									<Link href='/'>HOME</Link>
+									<Link onClick={null} href='/'>
+										HOME
+									</Link>
 								</li>
 								<li>
 									<Link href='/#'>
@@ -391,7 +397,9 @@ const Header = ({section}) => {
 					<nav className='navigation'>
 						<ul>
 							<li>
-								<Link href='/'>HOME</Link>
+								<Link onClick={null} href='/'>
+									HOME
+								</Link>
 							</li>
 							<li>
 								<Link href='/#'>

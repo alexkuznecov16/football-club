@@ -1,0 +1,109 @@
+header.headerBlock {
+  width: 100vw !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+  -moz-transform: translateX(-50%) !important;
+  -ms-transform: translateX(-50%) !important;
+  -o-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+}
+
+.News {
+  width: 100%;
+  min-height: 75vh;
+  padding: 130px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.News__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 0;
+  word-wrap: break-word;
+  /* font-family: "Montserrat", sans-serif; */
+  font-optical-sizing: auto;
+}
+
+.News__inner .News-item {
+  position: relative;
+  width: clamp(150px, 50vw, 300px);
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.News__inner > a:hover {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.News__inner .News-item img {
+  width: 100%;
+  height: auto;
+}
+
+.News-title, .News-link {
+  color: #882042;
+}
+
+.News-title {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 2.6;
+}
+
+.News-text {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-weight: 400;
+  color: #000;
+}
+
+.News__inner .News-item a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.News__inner .News-item a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.News a.more {
+  color: #882042;
+}
+
+.News a.more:hover {
+  text-decoration: underline;
+}
+
+.News__inner .News-item span.date {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, .6);
+  color: #fff;
+  font-size: clamp(4px, 4vw, 14px);
+}
