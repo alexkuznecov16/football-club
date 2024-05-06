@@ -8,6 +8,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  /* font-family: "Montserrat", sans-serif; */
+  font-optical-sizing: auto;
 }
 
 .About__inner .About-item {

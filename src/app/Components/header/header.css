@@ -9,6 +9,15 @@ body.hide {
   justify-content: space-around;
   align-items: center;
   min-height: 50px;
+  z-index: 10000000;
+}
+
+@media screen and (max-width: 400px) {
+  .headerBlock .mobile nav ul li:hover:not(:last-child) ul {
+    padding: 10px 0;
+    font-size: 12px;
+    width: 100%;
+  }
 }
 
 .absolute-header {
@@ -213,6 +222,7 @@ header.headerBlock nav.navigation ul {
 
 .headerBlock .mobile nav ul li:not(:last-child) ul li a {
   padding: 0;
+  text-align: center;
 }
 
 .headerBlock .mobile nav ul li:hover:not(:last-child) ul {

@@ -2,18 +2,19 @@ import Footer from '@/app/Components/footer/Footer';
 import Header from '@/app/Components/header/Header';
 import Image from 'next/image';
 import Link from 'next/link';
-import stadiumsData from '../../data/stadiums.json';
+import stadiumsData from '../../../data/stadiums.json';
 
 import '../stadiums.css';
+import NotFound from '@/app/not-found';
 
 export default function StadiumDetail({params}) {
 	const title = params.title;
 
-	const stadium = stadiumsData.find(item => item.title.toLowerCase().replace(/\s+/g, '-') === title);
+	const stadium = stadiumsData.find(item => item.title.toLowerCase().replace(/\s+/g, '-') === title) || false;
 
-	return (
+	return stadium ? (
 		<div className='mainPage'>
-			<Header />
+			<Header section={true} />
 			<section className='stadiums'>
 				<h2 className='section-title'>STADIUMS</h2>
 				<div className='container'>
@@ -32,5 +33,7 @@ export default function StadiumDetail({params}) {
 			</section>
 			<Footer />
 		</div>
+	) : (
+		<NotFound />
 	);
 }

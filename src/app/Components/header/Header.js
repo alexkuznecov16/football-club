@@ -9,7 +9,7 @@ import Image from 'next/image';
 import './header.css';
 
 import instagram from '../../Assets/instagram-white-icon.png';
-import telegram from '../../Assets/telegram-white-icon.png';
+import telegram from '../../Assets/logo-telegram-4096-602928999.png';
 
 import logo from '../../Assets/spartaks-logo.svg';
 // import russia from '../../Assets/russia.png';
@@ -17,7 +17,7 @@ import logo from '../../Assets/spartaks-logo.svg';
 
 import {useState, useEffect, useLayoutEffect} from 'react';
 
-const Header = () => {
+const Header = ({section}) => {
 	const [isScrolled, setScrolled] = useState(false);
 	const [isAbsolute, setAbsolute] = useState(false);
 	const [isMobileSize, setMobileSize] = useState(false);
@@ -60,7 +60,7 @@ const Header = () => {
 		}
 	}, [isMobileOpen]);
 
-	return (
+	return !section ? (
 		<header className={`${isAbsolute ? 'absolute-header' : ''} headerBlock ${isScrolled ? 'scroll' : 'absolute-header'}`}>
 			{isMobileSize ? (
 				<>
@@ -110,9 +110,6 @@ const Header = () => {
 										<li>
 											<Link href='/players-on-loan'>Players on loan</Link>
 										</li>
-										<li>
-											<Link href='/fans'>Fans</Link>
-										</li>
 									</ul>
 								</li>
 								<li>
@@ -122,9 +119,6 @@ const Header = () => {
 									<ul>
 										<li>
 											<Link href='/gallery'>Gallery</Link>
-										</li>
-										<li>
-											<Link href='/championship'>Championship</Link>
 										</li>
 										<li>
 											<Link href='/history'>History</Link>
@@ -144,30 +138,30 @@ const Header = () => {
 										</Link>
 									</li>
 									<Link target='_blank' href={'https://www.instagram.com'}>
-										<Image alt='instagram' src={instagram}></Image>
+										<Image width={30} height={30} alt='instagram' src={instagram}></Image>
 									</Link>
 									<Link target='_blank' href={'https://www.telegram.com'}>
-										<Image alt='telegram' src={telegram}></Image>
+										<Image width={30} height={30} alt='telegram' src={telegram}></Image>
 									</Link>
 								</div>
 								{/* Планируется создание переводчика страницы на русский и английский языки */}
 								{/* <li>
-							<Link title='Switch language' href='/#'>
-								<IoLanguage />
-							</Link>
-							<ul>
-								<li>
-									<Link href='#'>
-										English <Image alt='USA' src={usa}></Image>
-									</Link>
-								</li>
-								<li>
-									<Link href='#'>
-										Русский <Image alt='Russia' src={russia}></Image>
-									</Link>
-								</li>
-							</ul>
-						</li> */}
+						<Link title='Switch language' href='/#'>
+							<IoLanguage />
+						</Link>
+						<ul>
+							<li>
+								<Link href='#'>
+									English <Image alt='USA' src={usa}></Image>
+								</Link>
+							</li>
+							<li>
+								<Link href='#'>
+									Русский <Image alt='Russia' src={russia}></Image>
+								</Link>
+							</li>
+						</ul>
+					</li> */}
 							</ul>
 						</nav>
 						<IoMdCloseCircle className='close-menu' onClick={() => setMobileOpen(false)} />
@@ -226,8 +220,217 @@ const Header = () => {
 									<li>
 										<Link href='/players-on-loan'>Players on loan</Link>
 									</li>
+								</ul>
+							</li>
+							<li>
+								<Link href='/#'>
+									More <MdArrowDropDown />
+								</Link>
+								<ul>
 									<li>
-										<Link href='/fans'>Fans</Link>
+										<Link href='/gallery'>Gallery</Link>
+									</li>
+									<li>
+										<Link href='/championship'>Championship</Link>
+									</li>
+									<li>
+										<Link href='/history'>History</Link>
+									</li>
+									<li>
+										<Link href='/socials'>Social media</Link>
+									</li>
+									<li>
+										<Link href='/contacts'>Contacts</Link>
+									</li>
+								</ul>
+							</li>
+							<li title='Send email'>
+								<Link href='mailto:###'>
+									<HiOutlineMail style={{fontSize: '20px'}} />
+								</Link>
+							</li>
+							{/* Планируется создание переводчика страницы на русский и английский языки */}
+							{/* <li>
+							<Link title='Switch language' href='/#'>
+								<IoLanguage />
+							</Link>
+							<ul>
+								<li>
+									<Link href='#'>
+										English <Image alt='USA' src={usa}></Image>
+									</Link>
+								</li>
+								<li>
+									<Link href='#'>
+										Русский <Image alt='Russia' src={russia}></Image>
+									</Link>
+								</li>
+							</ul>
+						</li> */}
+						</ul>
+					</nav>
+				</>
+			)}
+		</header>
+	) : (
+		<header style={{width: '100%', transform: 'translate(0)', left: 0}} className={`headerBlock ${isScrolled ? 'scroll' : 'absolute-header'}`}>
+			{isMobileSize ? (
+				<>
+					<div className={`mobile ${isMobileOpen ? 'open' : ''}`}>
+						<Image alt='FK Spartaks logo' src={logo}></Image>
+						<nav className='navigation'>
+							<ul className='all-navs'>
+								<li className='nav-item'>
+									<Link href='/'>HOME</Link>
+								</li>
+								<li>
+									<Link href='/#'>
+										CLUB <MdArrowDropDown />
+									</Link>
+									<ul>
+										<li>
+											<Link href='/stadiums'>Stadiums</Link>
+										</li>
+										<li>
+											<Link href='/standings'>Standings</Link>
+										</li>
+										<li>
+											<Link href='/statistics'>Statistics</Link>
+										</li>
+										<li>
+											<Link href='/about'>About club</Link>
+										</li>
+										<li>
+											<Link href='/news'>News</Link>
+										</li>
+										<li>
+											<Link href='/tickets'>Tickets</Link>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<Link href='/#'>
+										TEAM <MdArrowDropDown />
+									</Link>
+									<ul>
+										<li>
+											<Link href='/players'>Players</Link>
+										</li>
+										<li>
+											<Link href='/coaching-staff'>Coaching staff</Link>
+										</li>
+										<li>
+											<Link href='/players-on-loan'>Players on loan</Link>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<Link href='/#'>
+										More <MdArrowDropDown />
+									</Link>
+									<ul>
+										<li>
+											<Link href='/gallery'>Gallery</Link>
+										</li>
+										<li>
+											<Link href='/history'>History</Link>
+										</li>
+										<li>
+											<Link href='/socials'>Social media</Link>
+										</li>
+										<li>
+											<Link href='/contacts'>Contacts</Link>
+										</li>
+									</ul>
+								</li>
+								<div className='bottom-nav'>
+									<li title='Send email'>
+										<Link href='mailto:###'>
+											<HiOutlineMail />
+										</Link>
+									</li>
+									<Link target='_blank' href={'https://www.instagram.com'}>
+										<Image width={30} height={30} alt='instagram' src={instagram}></Image>
+									</Link>
+									<Link target='_blank' href={'https://www.telegram.com'}>
+										<Image width={30} height={30} alt='telegram' src={telegram}></Image>
+									</Link>
+								</div>
+								{/* Планируется создание переводчика страницы на русский и английский языки */}
+								{/* <li>
+						<Link title='Switch language' href='/#'>
+							<IoLanguage />
+						</Link>
+						<ul>
+							<li>
+								<Link href='#'>
+									English <Image alt='USA' src={usa}></Image>
+								</Link>
+							</li>
+							<li>
+								<Link href='#'>
+									Русский <Image alt='Russia' src={russia}></Image>
+								</Link>
+							</li>
+						</ul>
+					</li> */}
+							</ul>
+						</nav>
+						<IoMdCloseCircle className='close-menu' onClick={() => setMobileOpen(false)} />
+					</div>
+					<IoMenu className='open-menu' onClick={() => setMobileOpen(true)} />
+					<Link className='mobile-logo-link' href='www.google.com'>
+						<Image className='logo mobile-logo' src={logo} alt='Spartaks logo' />
+					</Link>
+				</>
+			) : (
+				<>
+					<Link href='www.google.com'>
+						<Image className='logo' src={logo} alt='Spartaks logo' />
+					</Link>
+					<nav className='navigation'>
+						<ul>
+							<li>
+								<Link href='/'>HOME</Link>
+							</li>
+							<li>
+								<Link href='/#'>
+									CLUB <MdArrowDropDown />
+								</Link>
+								<ul>
+									<li>
+										<Link href='/stadiums'>Stadiums</Link>
+									</li>
+									<li>
+										<Link href='/standings'>Standings</Link>
+									</li>
+									<li>
+										<Link href='/statistics'>Statistics</Link>
+									</li>
+									<li>
+										<Link href='/about'>About club</Link>
+									</li>
+									<li>
+										<Link href='/news'>News</Link>
+									</li>
+									<li>
+										<Link href='/tickets'>Tickets</Link>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<Link href='/#'>
+									TEAM <MdArrowDropDown />
+								</Link>
+								<ul>
+									<li>
+										<Link href='/players'>Players</Link>
+									</li>
+									<li>
+										<Link href='/coaching-staff'>Coaching staff</Link>
+									</li>
+									<li>
+										<Link href='/players-on-loan'>Players on loan</Link>
 									</li>
 								</ul>
 							</li>
@@ -260,22 +463,22 @@ const Header = () => {
 							</li>
 							{/* Планируется создание переводчика страницы на русский и английский языки */}
 							{/* <li>
-								<Link title='Switch language' href='/#'>
-									<IoLanguage />
-								</Link>
-								<ul>
-									<li>
-										<Link href='#'>
-											English <Image alt='USA' src={usa}></Image>
-										</Link>
-									</li>
-									<li>
-										<Link href='#'>
-											Русский <Image alt='Russia' src={russia}></Image>
-										</Link>
-									</li>
-								</ul>
-							</li> */}
+							<Link title='Switch language' href='/#'>
+								<IoLanguage />
+							</Link>
+							<ul>
+								<li>
+									<Link href='#'>
+										English <Image alt='USA' src={usa}></Image>
+									</Link>
+								</li>
+								<li>
+									<Link href='#'>
+										Русский <Image alt='Russia' src={russia}></Image>
+									</Link>
+								</li>
+							</ul>
+						</li> */}
 						</ul>
 					</nav>
 				</>

@@ -46,6 +46,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  /* font-family: "Montserrat", sans-serif; */
+  font-optical-sizing: auto;
 }
 
 .Gallery__inner img {

@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 1,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://twitter.com", "/twitter-256.png", "Twitter"],
+      ["https://telegram.org", "/telegram-white-icon.png", "Telegram"],
+      ["https://facebook.com", "/facebook-7-256.png", "Facebook"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 2,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://telegram.org", "/telegram-white-icon.png", "Telegram"],
+      ["https://facebook.com", "/facebook-7-256.png", "Facebook"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 3,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 4,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 5,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 6,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": false,
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": true,
+        "team": "RIGA FC (lv)",
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": true,
+        "team": "RIGA FC (lv)",
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": true,
+        "team": "RIGA FC (lv)",
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": true,
+        "team": "RIGA FC (lv)",
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": true,
+        "team": "RIGA FC (lv)",
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "onLoan": true,
+    "team": "RIGA FC (lv)",
+    "number": 7,
+    "position": "POSITION",
+    "dateOfBirth": "dd/mm/yyyy",
+    "growth": 192,
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"]
+    ]
+  }
+]

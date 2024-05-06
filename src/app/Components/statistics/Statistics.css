@@ -9,6 +9,8 @@
   align-items: baseline;
   gap: 20px;
   margin-top: 50px;
+  /* font-family: "Montserrat", sans-serif; */
+  font-optical-sizing: auto;
 }
 
 .Statistics__inner .Statistics-item {
@@ -44,10 +46,10 @@
 } */
 
 .Statistics__inner .Statistics-item svg {
-    margin: 0 auto;
-    margin-bottom: 50px;
-    width: 2em;
-    height: 2em;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 2em;
+  height: 2em;
 }
 
 .Statistics__inner .Statistics-item:nth-child(3) svg {

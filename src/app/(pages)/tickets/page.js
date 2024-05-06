@@ -1,8 +1,8 @@
 'use client';
 import {useState} from 'react';
-import Footer from '../Components/footer/Footer';
-import Header from '../Components/header/Header';
-import ticketsData from '../data/tickets.json';
+import Footer from '@/app/Components/footer/Footer';
+import Header from '@/app/Components/header/Header';
+import ticketsData from '@/app/data/tickets.json';
 
 import Image from 'next/image';
 import Link from 'next/link';

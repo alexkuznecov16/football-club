@@ -1,0 +1,87 @@
+.coachs {
+  padding: 130px 0;
+}
+
+.coachs__inner {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.coach--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+}
+
+.coach__info {
+  padding-block: 20px;
+}
+
+.coach--details {
+  text-align: center;
+  font-weight: 600;
+}
+
+.coach--item h3.coach--details {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid #882042;
+}
+
+.coach--item h4.coach--details {
+  padding: 0;
+  margin: 0;
+  opacity: 0.6;
+  display: block;
+  line-height: 1.25;
+  color: #454646;
+}
+
+.coach--item span {
+  margin-bottom: 20px;
+  line-height: 1.25;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.coach__socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.coach__socials img {
+  width: 30px;
+  height: 30px;
+  background: #882042;
+  padding: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .coachs__inner {
+    padding-top: 40px;
+  }
+  .coach__img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .coach__img {
+      width: 100px !important;
+      height: 100px !important;
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "role": "HEAD COACH",
+    "dateOfBirth": "dd/mm/yyyy",
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://twitter.com", "/twitter-256.png", "Twitter"],
+      ["https://telegram.org", "/telegram-white-icon.png", "Telegram"],
+      ["https://facebook.com", "/facebook-7-256.png", "Facebook"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "role": "GK COACH",
+    "dateOfBirth": "dd/mm/yyyy",
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://twitter.com", "/twitter-256.png", "Twitter"],
+      ["https://telegram.org", "/telegram-white-icon.png", "Telegram"],
+      ["https://facebook.com", "/facebook-7-256.png", "Facebook"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "role": "ADMINISTRATOR",
+    "dateOfBirth": "dd/mm/yyyy",
+    "nationality": "LATVIA",
+    "image": "https://static1.s123-cdn-static-a.com/uploads/328856/400_630c702812517.jpg",
+    "socials": [
+      ["https://instagram.com", "/instagram-white-icon.png", "Instagram"],
+      ["https://twitter.com", "/twitter-256.png", "Twitter"],
+      ["https://telegram.org", "/telegram-white-icon.png", "Telegram"],
+      ["https://facebook.com", "/facebook-7-256.png", "Facebook"],
+      ["https://youtube.com", "/youtube-app-white-icon.png", "Youtube"]
+    ]
+  }
+]

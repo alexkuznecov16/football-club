@@ -14,7 +14,7 @@ export const metadata = {
 	},
 };
 
-<meta content='' />
+<meta content='' />;
 
 export default function RootLayout({children}) {
 	return (

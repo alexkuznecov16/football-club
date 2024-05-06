@@ -1,5 +1,5 @@
 header.headerBlock {
-  width: 100% !important;
+  width: 100vw !important;
   position: fixed !important;
   top: 0 !important;
   left: 50% !important;
@@ -18,7 +18,7 @@ header.headerBlock {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Catamaran' ,Arial,sans-serif !important;
+  /* font-family: 'Catamaran' ,Arial,sans-serif !important; */
 }
 
 .stadiums__inner {
@@ -30,6 +30,8 @@ header.headerBlock {
   gap: 20px;
   margin-top: 60px;
   justify-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .stadium--item {

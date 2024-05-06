@@ -29,8 +29,8 @@ const Home = () => {
 				<Header isAbsolute={true} />
 				<Hero />
 				<MatchCountdown />
-				<Standings />
-				<Statistics />
+				<Standings section={false} />
+				<Statistics section={false} />
 				<About />
 				<News />
 				<Gallery />

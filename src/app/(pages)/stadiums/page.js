@@ -1,11 +1,11 @@
 'use client';
-import Footer from '../Components/footer/Footer';
-import Header from '../Components/header/Header';
+import Footer from '@/app/Components/footer/Footer';
+import Header from '@/app/Components/header/Header';
 
 import Image from 'next/image';
 import Link from 'next/link';
 
-import stadiumsData from '../data/stadiums.json';
+import stadiumsData from '@/app/data/stadiums.json';
 
 import './stadiums.css';
 import {useState} from 'react';
@@ -14,7 +14,7 @@ export default function Stadiums() {
 	const [stadiums, setStadiums] = useState(stadiumsData);
 	return (
 		<div className='mainPage'>
-			<Header />
+			<Header section={true} />
 			<section className='stadiums'>
 				<h2 className='section-title'>STADIUMS</h2>
 				<div className='container'>
