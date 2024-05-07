@@ -15,9 +15,10 @@ section.News {
 }
 
 section.News .News__image {
+  background-position: top;
   position: relative;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   height: 200px;
   background-position: top;
   overflow: hidden;
