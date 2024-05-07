@@ -23,14 +23,14 @@ const News = () => {
 							.reverse()
 							.map((item, index) => (
 								<div key={index} className='News-item'>
-									<Link href={`/news/${newsData.length - index}`}>
+									<Link href={`/news/${item.title.toLowerCase().replace(/\s+/g, '-')}`}>
 										<Image src={item.poster} alt='poster' width={200} height={300} />
 									</Link>
-									<Link href={`/news/${newsData.length - index}`}>
+									<Link href={`/news/${item.title.toLowerCase().replace(/\s+/g, '-')}`}>
 										<span className='News-title'>{item.title}</span>
 									</Link>
 									<p className='News-text'>{item.subtitle}</p>
-									<Link href={`/news/${newsData.length - index}`} className='News-link'>
+									<Link href={`/news/${item.title.toLowerCase().replace(/\s+/g, '-')}`} className='News-link'>
 										Read more <MdKeyboardArrowRight />
 									</Link>
 									<span className='date'>{item.date}</span>

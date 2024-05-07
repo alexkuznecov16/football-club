@@ -9,7 +9,7 @@ import Image from 'next/image';
 import './header.css';
 
 import instagram from '../../Assets/instagram-white-icon.png';
-import telegram from '../../Assets/logo-telegram-4096-602928999.png';
+import telegram from '/public/telegram-white-icon.png';
 
 import logo from '../../Assets/spartaks-logo.svg';
 // import russia from '../../Assets/russia.png';
@@ -69,12 +69,10 @@ const Header = ({section}) => {
 						<nav className='navigation'>
 							<ul className='all-navs'>
 								<li className='nav-item'>
-									<Link onClick={null} href='/'>
-										HOME
-									</Link>
+									<Link href='/'>HOME</Link>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										CLUB <MdArrowDropDown />
 									</Link>
 									<ul>
@@ -99,7 +97,7 @@ const Header = ({section}) => {
 									</ul>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										TEAM <MdArrowDropDown />
 									</Link>
 									<ul>
@@ -115,7 +113,7 @@ const Header = ({section}) => {
 									</ul>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										More <MdArrowDropDown />
 									</Link>
 									<ul>
@@ -148,12 +146,12 @@ const Header = ({section}) => {
 								</div>
 								{/* Планируется создание переводчика страницы на русский и английский языки */}
 								{/* <li>
-						<Link title='Switch language' href='/#'>
+						<Link title='Switch language' href='#'>
 							<IoLanguage />
 						</Link>
 						<ul>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									English <Image alt='USA' src={usa}></Image>
 								</Link>
 							</li>
@@ -169,24 +167,22 @@ const Header = ({section}) => {
 						<IoMdCloseCircle className='close-menu' onClick={() => setMobileOpen(false)} />
 					</div>
 					<IoMenu className='open-menu' onClick={() => setMobileOpen(true)} />
-					<Link className='mobile-logo-link' href='/#'>
+					<Link className='mobile-logo-link' href='#'>
 						<Image className='logo mobile-logo' src={logo} alt='Spartaks logo' />
 					</Link>
 				</>
 			) : (
 				<>
-					<Link href='/#'>
+					<Link href='#'>
 						<Image className='logo' src={logo} alt='Spartaks logo' />
 					</Link>
 					<nav className='navigation'>
 						<ul>
 							<li>
-								<Link onClick={null} href='/'>
-									HOME
-								</Link>
+								<Link href='/'>HOME</Link>
 							</li>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									CLUB <MdArrowDropDown />
 								</Link>
 								<ul>
@@ -211,7 +207,7 @@ const Header = ({section}) => {
 								</ul>
 							</li>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									TEAM <MdArrowDropDown />
 								</Link>
 								<ul>
@@ -227,7 +223,7 @@ const Header = ({section}) => {
 								</ul>
 							</li>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									More <MdArrowDropDown />
 								</Link>
 								<ul>
@@ -255,7 +251,7 @@ const Header = ({section}) => {
 							</li>
 							{/* Планируется создание переводчика страницы на русский и английский языки */}
 							{/* <li>
-							<Link title='Switch language' href='/#'>
+							<Link title='Switch language' href='#'>
 								<IoLanguage />
 							</Link>
 							<ul>
@@ -265,7 +261,7 @@ const Header = ({section}) => {
 									</Link>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										Русский <Image alt='Russia' src={russia}></Image>
 									</Link>
 								</li>
@@ -285,12 +281,10 @@ const Header = ({section}) => {
 						<nav className='navigation'>
 							<ul className='all-navs'>
 								<li className='nav-item'>
-									<Link onClick={null} href='/'>
-										HOME
-									</Link>
+									<Link href='/'>HOME</Link>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										CLUB <MdArrowDropDown />
 									</Link>
 									<ul>
@@ -315,7 +309,7 @@ const Header = ({section}) => {
 									</ul>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										TEAM <MdArrowDropDown />
 									</Link>
 									<ul>
@@ -331,7 +325,7 @@ const Header = ({section}) => {
 									</ul>
 								</li>
 								<li>
-									<Link href='/#'>
+									<Link href='#'>
 										More <MdArrowDropDown />
 									</Link>
 									<ul>
@@ -364,7 +358,7 @@ const Header = ({section}) => {
 								</div>
 								{/* Планируется создание переводчика страницы на русский и английский языки */}
 								{/* <li>
-						<Link title='Switch language' href='/#'>
+						<Link title='Switch language' href='#'>
 							<IoLanguage />
 						</Link>
 						<ul>
@@ -385,24 +379,22 @@ const Header = ({section}) => {
 						<IoMdCloseCircle className='close-menu' onClick={() => setMobileOpen(false)} />
 					</div>
 					<IoMenu className='open-menu' onClick={() => setMobileOpen(true)} />
-					<Link className='mobile-logo-link' href='www.google.com'>
+					<Link className='mobile-logo-link' href='#'>
 						<Image className='logo mobile-logo' src={logo} alt='Spartaks logo' />
 					</Link>
 				</>
 			) : (
 				<>
-					<Link href='www.google.com'>
+					<Link href='#'>
 						<Image className='logo' src={logo} alt='Spartaks logo' />
 					</Link>
 					<nav className='navigation'>
 						<ul>
 							<li>
-								<Link onClick={null} href='/'>
-									HOME
-								</Link>
+								<Link href='/'>HOME</Link>
 							</li>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									CLUB <MdArrowDropDown />
 								</Link>
 								<ul>
@@ -427,7 +419,7 @@ const Header = ({section}) => {
 								</ul>
 							</li>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									TEAM <MdArrowDropDown />
 								</Link>
 								<ul>
@@ -443,7 +435,7 @@ const Header = ({section}) => {
 								</ul>
 							</li>
 							<li>
-								<Link href='/#'>
+								<Link href='#'>
 									More <MdArrowDropDown />
 								</Link>
 								<ul>
@@ -471,7 +463,7 @@ const Header = ({section}) => {
 							</li>
 							{/* Планируется создание переводчика страницы на русский и английский языки */}
 							{/* <li>
-							<Link title='Switch language' href='/#'>
+							<Link title='Switch language' href='#'>
 								<IoLanguage />
 							</Link>
 							<ul>

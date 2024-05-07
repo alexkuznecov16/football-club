@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+section.News {
+  padding: 130px 0 !important;
+}
+
 .News__inner {
   display: flex;
   flex-wrap: wrap;

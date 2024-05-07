@@ -1,67 +1,89 @@
 [
   {
+    "id": 1,
     "title": "1 news title",
-    "subtitle": "1 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "1 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "15.04.2024"
   },
   {
+    "id": 2,
     "title": "2 news title",
-    "subtitle": "2 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "2 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "16.04.2024"
   },
   {
+    "id": 3,
     "title": "3 news title",
-    "subtitle": "3 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "3 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "17.04.2024"
   },
   {
+    "id": 4,
     "title": "4 news title",
-    "subtitle": "4 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "4 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "18.04.2024"
   },
   {
+    "id": 5,
     "title": "5 news title",
-    "subtitle": "5 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "5 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "19.04.2024"
   },
   {
+    "id": 6,
     "title": "6 news title",
-    "subtitle": "6 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "6 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "20.04.2024"
   },
   {
+    "id": 7,
     "title": "7 news title",
-    "subtitle": "7 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "7 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "21.04.2024"
   },
   {
+    "id": 8,
     "title": "8 news title",
-    "subtitle": "8 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "8 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "02.05.2024"
   },
   {
+    "id": 9,
     "title": "9 news title",
-    "subtitle": "9 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "9 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "03.05.2024"
   },
   {
+    "id": 10,
     "title": "10 news title",
-    "subtitle": "10 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "10 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "04.05.2024"
   },
   {
+    "id": 11,
     "title": "11 news title",
-    "subtitle": "11 news text lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "subtitle": "11 news text - this is a placeholder text for the news article.",
+    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis tristique massa ut interdum. Proin ut venenatis eros, vitae fermentum purus. Phasellus ultrices, justo eget mattis rhoncus, ipsum odio ultrices velit, nec ullamcorper nisi lorem id turpis. Nullam at sapien sit amet nunc pharetra dignissim sit amet id justo. Quisque eu metus nec odio interdum maximus. Fusce nec interdum arcu. Vivamus at ex eget orci bibendum tincidunt. Aliquam sollicitudin ligula nec varius faucibus.",
     "poster": "/poster1.png",
     "date": "05.05.2024"
   }
