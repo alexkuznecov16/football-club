@@ -153,7 +153,7 @@ header.headerBlock nav.navigation ul {
 }
 
 .headerBlock.scroll .logo {
-  height: clamp(30px, 50vw, 70px);
+  height: clamp(30px, 20vw, 70px);
   width: auto;
 }
 /*! MOBILE */
@@ -177,7 +177,7 @@ header.headerBlock nav.navigation ul {
 
 .mobile img {
   width: auto;
-  height: clamp(100px, 50vw, 130px);
+  height: clamp(50px, 20vw, 130px);
   display: flex;
   justify-content: center;
   align-items: center;

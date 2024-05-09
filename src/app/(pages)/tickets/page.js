@@ -1,5 +1,5 @@
 'use client';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import Footer from '@/app/Components/footer/Footer';
 import Header from '@/app/Components/header/Header';
 import ticketsData from '@/app/data/tickets.json';
@@ -10,7 +10,16 @@ import Link from 'next/link';
 import './tickets.css';
 
 export default function Tickets() {
-	const [tickets, setTickets] = useState(ticketsData);
+	const [tickets, setTickets] = useState([]);
+
+	useEffect(() => {
+		const filteredTickets = ticketsData.filter(ticket => {
+			const currentDate = new Date();
+			const ticketDate = new Date(ticket.date);
+			return ticket.active && currentDate < ticketDate;
+		});
+		setTickets(filteredTickets);
+	}, []);
 
 	return (
 		<div className='mainPage'>
@@ -19,9 +28,15 @@ export default function Tickets() {
 				<h2 className='section-title'>TICKETS</h2>
 				<div className='container'>
 					<div className='tickets__inner'>
-						{tickets.map(ticket => (
-							<TicketCard key={ticket.opponent} ticket={ticket} />
-						))}
+						{tickets.length === 0 ? (
+							<p>No tickets available at the moment.</p>
+						) : (
+							<>
+								{tickets.map(ticket => (
+									<TicketCard key={ticket.opponent} ticket={ticket} />
+								))}
+							</>
+						)}
 					</div>
 				</div>
 			</section>
@@ -31,7 +46,10 @@ export default function Tickets() {
 }
 
 const TicketCard = ({ticket}) => {
-	return ticket.active ? (
+	const currentDate = new Date();
+	const ticketDate = new Date(ticket.date);
+	const isDatePassed = currentDate > ticketDate;
+	return ticket.active && !isDatePassed ? (
 		<div className='ticket'>
 			<div className='ticket__image'>
 				<Image width={200} height={300} src={ticket.poster} alt={ticket.opponent}></Image>

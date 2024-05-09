@@ -47,12 +47,13 @@
     "championship": "Optibet virsliga",
     "price": null,
     "available": false,
+    "poster": "https://eapp.org/wp-content/uploads/2018/05/poster_placeholder.jpg",
     "ticketLink": "",
     "active": false
   },
   {
     "opponent": "Valmiera FC",
-    "date": "2024-05-10",
+    "date": "2024-05-08",
     "time": "16:00",
     "stadium": "Jurmala, Sloka stadium",
     "isHome": true,
@@ -60,7 +61,7 @@
     "price": null,
     "available": true,
     "ticketLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s",
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s",
-    "active": true
+    "poster": "https://eapp.org/wp-content/uploads/2018/05/poster_placeholder.jpg",
+    "active": false
   }
 ]

@@ -1,0 +1,110 @@
+.container {
+  padding: 0 50px;
+}
+
+.Contacts__inner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contacts__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+.Contacts__text a {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.Contacts__text .socials-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-top: 20px;
+}
+
+.Contacts__text img {
+  max-width: 40px;
+  max-height: 40px;
+  padding: 5px;
+  background-color: #882042;
+}
+
+.Contacts__text img:hover {
+  opacity: .7;
+}
+
+.Contacts__form {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.Contacts__form .form-group {
+  margin-bottom: 20px;
+}
+
+.Contacts__form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Contacts__form input[type="text"],
+.Contacts__form input[type="email"],
+.Contacts__form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b0afaf;
+  border-radius: 5px;
+  resize: none;
+}
+
+.Contacts__form textarea {
+  height: 150px; /* Вы можете изменить высоту textarea по своему усмотрению */
+}
+
+.Contacts__form button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #882042;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.Contacts__form button[type="submit"]:hover {
+  background-color: #882042; /* Цвет фона кнопки при наведении */
+}
+
+@media screen and (max-width: 900px) {
+  .Contacts__inner {
+    flex-wrap: wrap;
+  }
+  .Contacts__text {
+    width: 100%;
+  }
+  .Contacts__form {
+    width: 100%;
+  }
+  .container {
+    padding: 0 10px;
+  }
+}

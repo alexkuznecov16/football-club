@@ -123,9 +123,7 @@ const Header = ({section}) => {
 										<li>
 											<Link href='/history'>History</Link>
 										</li>
-										<li>
-											<Link href='/socials'>Social media</Link>
-										</li>
+
 										<li>
 											<Link href='/contacts'>Contacts</Link>
 										</li>
@@ -231,13 +229,7 @@ const Header = ({section}) => {
 										<Link href='/gallery'>Gallery</Link>
 									</li>
 									<li>
-										<Link href='/championship'>Championship</Link>
-									</li>
-									<li>
 										<Link href='/history'>History</Link>
-									</li>
-									<li>
-										<Link href='/socials'>Social media</Link>
 									</li>
 									<li>
 										<Link href='/contacts'>Contacts</Link>
@@ -335,9 +327,7 @@ const Header = ({section}) => {
 										<li>
 											<Link href='/history'>History</Link>
 										</li>
-										<li>
-											<Link href='/socials'>Social media</Link>
-										</li>
+
 										<li>
 											<Link href='/contacts'>Contacts</Link>
 										</li>
@@ -443,13 +433,7 @@ const Header = ({section}) => {
 										<Link href='/gallery'>Gallery</Link>
 									</li>
 									<li>
-										<Link href='/championship'>Championship</Link>
-									</li>
-									<li>
 										<Link href='/history'>History</Link>
-									</li>
-									<li>
-										<Link href='/socials'>Social media</Link>
 									</li>
 									<li>
 										<Link href='/contacts'>Contacts</Link>
