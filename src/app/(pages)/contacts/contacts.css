@@ -1,3 +1,15 @@
+header.headerBlock {
+  width: 100vw !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+  -moz-transform: translateX(-50%) !important;
+  -ms-transform: translateX(-50%) !important;
+  -o-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+}
+
 .container {
   padding: 0 50px;
 }
@@ -25,6 +37,19 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+}
+
+.Contacts__text address {
+  font-style: normal;
+}
+
+.Contacts__text a {
+  color: #882042;
+  text-decoration: none;
+}
+
+.Contacts__text a:hover {
+  text-decoration: underline;
 }
 
 .Contacts__text .socials-contacts {
@@ -77,7 +102,7 @@
 
 .Contacts__form button[type="submit"] {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.75rem 1.10rem;
   background-color: #882042;
   color: #fff;
   border: none;
@@ -88,10 +113,16 @@
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
+  width: 100%;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .Contacts__form button[type="submit"]:hover {
-  background-color: #882042; /* Цвет фона кнопки при наведении */
+  background-color: #882042;
 }
 
 @media screen and (max-width: 900px) {

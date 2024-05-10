@@ -70,7 +70,7 @@ export default function page() {
 								<label htmlFor='message'>Message:</label>
 								<textarea id='message' name='message' value={formData.message} onChange={handleChange} required />
 							</div>
-							<button type='submit'>Submit</button>
+							<button type='submit'>CONTACTS US</button>
 						</form>
 					</div>
 				</div>
