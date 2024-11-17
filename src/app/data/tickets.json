@@ -58,10 +58,10 @@
     "stadium": "Jurmala, Sloka stadium",
     "isHome": true,
     "championship": "Optibet virsliga",
-    "price": null,
+    "price": 200,
     "available": true,
     "ticketLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s",
     "poster": "https://eapp.org/wp-content/uploads/2018/05/poster_placeholder.jpg",
-    "active": true
+    "active": false
   }
 ]
