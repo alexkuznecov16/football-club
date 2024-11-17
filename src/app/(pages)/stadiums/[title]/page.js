@@ -21,7 +21,7 @@ export default function StadiumDetail({params}) {
 					<div className='stadiums__inner'>
 						<div className='stadium--item active-stadium'>
 							<Link className='stadium--image-link' href={`/stadiums/${stadium.title.toLowerCase().replace(/\s+/g, '-')}`} passHref>
-								<Image width={200} height={200} src={stadium.image} alt={stadium.title}></Image>
+								<Image width={200} height={200} src={stadium.image} alt={stadium.title} quality={100} priority={true} />
 							</Link>
 							<div className='stadium__info'>
 								<p>{stadium.info}</p>

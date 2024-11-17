@@ -22,7 +22,7 @@ const Standings = ({section}) => {
 					<div className='keen-slider__slide slide number-slide1'>
 						<div>
 							<Link target='_blank' href='https://lff.lv/sacensibas/viriesi/virsliga/?p=2022'>
-								<Image alt='virsliga' src={virsliga}></Image>
+								<Image alt='virsliga' src={virsliga} quality={100} priority={true} />
 							</Link>
 						</div>
 						<span>Optibet virsliga</span>
@@ -30,7 +30,7 @@ const Standings = ({section}) => {
 					<div className='keen-slider__slide slide number-slide2'>
 						<div>
 							<Link target='_blank' href='https://lff.lv/sacensibas/viriesi/latvijas-kauss/?p=2022'>
-								<Image alt='latvian cup' src={latvian_cup}></Image>
+								<Image alt='latvian cup' src={latvian_cup} quality={100} priority={true} />
 							</Link>
 						</div>
 						<span>Latvian Cup</span>
@@ -38,7 +38,7 @@ const Standings = ({section}) => {
 					<div className='keen-slider__slide slide number-slide3'>
 						<div>
 							<Link target='_blank' href='https://lff.lv/sacensibas/viriesi/livonian-winter-league/'>
-								<Image alt='livonian cup' src={livonian_cup}></Image>
+								<Image alt='livonian cup' src={livonian_cup} quality={100} priority={true} />
 							</Link>
 						</div>
 						<span>Livonian Cup</span>

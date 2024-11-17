@@ -24,7 +24,7 @@ const News = () => {
 							.map((item, index) => (
 								<div key={index} className='News-item'>
 									<Link href={`/news/${item.title.toLowerCase().replace(/\s+/g, '-')}`}>
-										<Image src={item.poster} alt='poster' width={200} height={300} />
+										<Image src={item.poster} alt='poster' width={200} height={300} quality={100} priority={true} />
 									</Link>
 									<Link href={`/news/${item.title.toLowerCase().replace(/\s+/g, '-')}`}>
 										<span className='News-title'>{item.title}</span>

@@ -4,6 +4,7 @@ import photoData from '../../data/gallery.json';
 import Link from 'next/link';
 
 import './gallery.css';
+import Image from 'next/image';
 
 const Gallery = ({section}) => {
 	const [selectedPhotos, setSelectedPhotos] = useState([]);
@@ -36,10 +37,7 @@ const Gallery = ({section}) => {
 				<div className='Gallery__inner'>
 					{selectedPhotos.map((photo, index) => (
 						<Link className='img-container' key={index} href={photo}>
-							<img src={photo} alt={`Photo ${index + 1}`} />
-							{/* <div className='img-overlay'>
-							<CiZoomIn />
-						</div> */}
+							<Image src={photo} alt={`Photo ${index + 1}`} quality={100} priority={true} />
 						</Link>
 					))}
 				</div>
@@ -59,7 +57,7 @@ const Gallery = ({section}) => {
 				<div className='Gallery__inner'>
 					{selectedPhotos.map((photo, index) => (
 						<Link className='img-container' key={index} href={photo}>
-							<img src={photo} alt={`Photo ${index + 1}`} />
+							<Image src={photo} alt={`Photo ${index + 1}`} quality={100} priority={true} />
 							{/* <div className='img-overlay'>
 							<CiZoomIn />
 						</div> */}

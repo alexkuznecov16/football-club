@@ -22,7 +22,7 @@ export default function Stadiums() {
 						{stadiums.map((item, key) => (
 							<div className='stadium--item' key={key}>
 								<Link className='stadium--image-link' href={`/stadiums/${item.title.toLowerCase().replace(/\s+/g, '-')}`} passHref>
-									<Image width={200} height={200} src={item.image} alt={item.title}></Image>
+									<Image width={200} height={200} src={item.image} alt={item.title} quality={100} priority={true} />
 								</Link>
 								<div className='stadium__info'>
 									<h3 className='stadium--name'>{item.title}</h3>

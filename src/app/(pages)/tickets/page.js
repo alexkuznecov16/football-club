@@ -52,7 +52,7 @@ const TicketCard = ({ticket}) => {
 	return ticket.active && !isDatePassed ? (
 		<div className='ticket'>
 			<div className='ticket__image'>
-				<Image width={200} height={300} src={ticket.poster} alt={ticket.opponent}></Image>
+				<Image width={200} height={300} src={ticket.poster} alt={ticket.opponent} quality={100} priority={true} />
 			</div>
 			<div className='ticket__content'>
 				<h3>{ticket.opponent}</h3>

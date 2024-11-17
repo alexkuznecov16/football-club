@@ -11,10 +11,10 @@ const About = ({section}) => {
 			<div data-aos='fade-up' className='About__inner'>
 				<div className='About-item'>
 					<div className='image__container'>
-						<Image src={champions} alt='img1'></Image>
+						<Image src={champions} alt='img1' quality={100} priority={true} />
 					</div>
 					<div className='image__container'>
-						<Image src={fans} alt='img2'></Image>
+						<Image src={fans} alt='img2' quality={100} priority={true} />
 					</div>
 				</div>
 				<div className='About-item'>
