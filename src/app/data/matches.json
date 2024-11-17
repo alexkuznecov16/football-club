@@ -38,5 +38,13 @@
     "stadium": "Jurmala, Sloka stadium",
     "isHome": true,
     "championship": "Optibet virsliga"
+  },
+  {
+    "opponent": "Valmiera FC",
+    "date": "2025-01-29",
+    "time": "16:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga"
   }
 ]
