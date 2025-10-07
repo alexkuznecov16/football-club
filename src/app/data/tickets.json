@@ -63,5 +63,18 @@
     "ticketLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s",
     "poster": "https://eapp.org/wp-content/uploads/2018/05/poster_placeholder.jpg",
     "active": false
+  },
+  {
+    "opponent": "FK RFS",
+    "date": "2028-05-04",
+    "time": "22:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga",
+    "price": 754,
+    "available": true,
+    "ticketLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Bj4pZZTKFJR85Q3IicMU5117eeQRMeBrCBXDjBGu3g&s",
+    "poster": "https://eapp.org/wp-content/uploads/2018/05/poster_placeholder.jpg",
+    "active": true
   }
 ]

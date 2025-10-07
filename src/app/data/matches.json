@@ -46,5 +46,13 @@
     "stadium": "Jurmala, Sloka stadium",
     "isHome": true,
     "championship": "Optibet virsliga"
+  },
+  {
+    "opponent": "FK RFS",
+    "date": "2028-05-04",
+    "time": "22:00",
+    "stadium": "Jurmala, Sloka stadium",
+    "isHome": true,
+    "championship": "Optibet virsliga"
   }
 ]
